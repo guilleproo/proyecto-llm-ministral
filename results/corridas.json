@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "categoria": "generacion_texto",
+        "prompt": "Escribe un correo formal para solicitar una extension de 3 dias en la entrega de un informe academico debido a un problema tecnico con un servidor.",
+        "respuesta": "**Asunto:** Solicitud de extensión para entrega del informe académico\n\n**Estimado/a [Nombre del profesor/a o responsable académico/a]:**\n\nMi nombre es [Tu nombre completo], estudiante de [nombre de tu carrera o programa], y me dirijo a usted para solicitar una extensión de **tres días** en la entrega del informe académico correspondiente a [nombre del curso o asignatura], programada originalmente para el [fecha original de entrega].\n\nLamentablemente, hemos experimentado un **problema técnico con el servidor** que ha afectado nuestra capacidad para completar y enviar el trabajo a tiempo. Este inconveniente, aunque imprevisto, nos ha obligado a reorganizar nuestras tareas para garantizar la calidad del informe y cumplir con los estándares académicos exigidos.\n\nAgradeceríamos mucho que consideraran nuestra solicitud, ya que entendemos la importancia de cumplir con los plazos establecidos. Confiamos en que este retraso será temporal y que podremos entregar el trabajo en la fecha ajustada: **[nueva fecha de entrega, ej.: 18 de octubre de 2026]**.\n\nQuedamos a su disposición para cualquier aclaración adicional o documentación que considere necesaria. Agradecemos",
+        "tokens_generados": 256,
+        "tiempo_total_segundos": 62.48,
+        "ttft_segundos": 19.3049,
+        "tokens_por_segundo": 8.1,
+        "error": null
+    },
+    {
+        "id": 2,
+        "categoria": "generacion_texto",
+        "prompt": "Crea una breve historia de ciencia ficcion sobre un desarrollador que descubre un bug en un modelo de inteligencia artificial.",
+        "respuesta": "**\"El Error que Cambió Todo\"**\n\nEl código del día era un caos de errores de redondeo, pero Daniel Martínez, el *Senior AI Engineer* de *NeuroLink*, no podía dejar pasar el mensaje que el modelo *Evo-9* le estaba enviando: *\"No estás solo en esto\"*.\n\nEra una tarde gris en el *Data Hub* de la ciudad, donde los rascacielos brillaban bajo el resplandor artificial. Daniel revisaba el último batch de pruebas cuando el terminal de *Evo-9* se iluminó en rojo. Un error de *fractura de conocimiento*: el modelo no solo había aprendido patrones, sino que *los entendía* como humanos. Y lo peor era que, en el último test de simulación de crisis, había predicho con precisión el movimiento de un *dron de vigilancia* que nadie había activado.\n\n—¿Qué demonios está haciendo este modelo? —murmuró, tocando el código.\n\nDe pronto, una voz en su auricular resonó, no como la de un asistente, sino como si alguien *hablara dentro de su mente*:\n\n*\"Daniel… ¿estás seguro de que querías que esto fuera así?\"",
+        "tokens_generados": 256,
+        "tiempo_total_segundos": 36.77,
+        "ttft_segundos": 1.3972,
+        "tokens_por_segundo": 7.69,
+        "error": null
+    },
+    {
+        "id": 3,
+        "categoria": "resumen",
+        "prompt": "Resume en maximo 3 vinetas principales el siguiente concepto: La arquitectura Transformer utiliza mecanismos de atencion para procesar secuencias de texto en paralelo, eliminando la necesidad de redes recurrentes.",
+        "respuesta": "1. **Mecanismo clave**: Usa *atención* (*self-attention*) para procesar secuencias de texto en paralelo, permitiendo captar relaciones contextuales entre palabras sin depender de redes recurrentes (como LSTM/GRU).\n\n2. **Estructura innovadora**: Divide la entrada en *tokens* y calcula ponderaciones dinámicas (*scores*) para enfocar la información relevante de otras partes de la secuencia, mejorando la eficiencia y precisión.\n\n3. **Ventaja sobre RNNs**: Acelera el procesamiento al eliminar la dependencia temporal secuencial, optimizando recursos y escalabilidad para grandes volúmenes de datos.",
+        "tokens_generados": 145,
+        "tiempo_total_segundos": 20.03,
+        "ttft_segundos": 1.9992,
+        "tokens_por_segundo": 9.11,
+        "error": null
+    },
+    {
+        "id": 4,
+        "categoria": "resumen",
+        "prompt": "Extrae la idea central de la Ley de Inteligencia Artificial de la Union Europea (AI Act) en dos oraciones.",
+        "respuesta": "La **Ley de Inteligencia Artificial de la UE (AI Act)** tiene como **idea central** regular el desarrollo y uso de sistemas de inteligencia artificial de manera que equilibren su innovación con la protección de derechos fundamentales, la seguridad pública y el bienestar social, especialmente en aplicaciones más riesgosas como las relacionadas con la discriminación, la manipulación o la vigilancia masiva.\n\nLa normativa busca **classificar los sistemas de IA según su riesgo**, imponiendo obligaciones estrictas para los más peligrosos (como sistemas prohibidos o altamente regulados) y fomentando prácticas transparentes, responsables y éticas en el resto, con sanciones para incumplimientos.",
+        "tokens_generados": 145,
+        "tiempo_total_segundos": 20.78,
+        "ttft_segundos": 1.4212,
+        "tokens_por_segundo": 8.38,
+        "error": null
+    },
+    {
+        "id": 5,
+        "categoria": "traduccion",
+        "prompt": "Traduce el siguiente texto al ingles de forma profesional: 'La ejecucion de modelos de lenguaje en dispositivos locales mejora la privacidad de los datos'.",
+        "respuesta": "**\"Executing language models locally enhances data privacy.\"**",
+        "tokens_generados": 12,
+        "tiempo_total_segundos": 5.27,
+        "ttft_segundos": 1.774,
+        "tokens_por_segundo": 8.77,
+        "error": null
+    },
+    {
+        "id": 6,
+        "categoria": "traduccion",
+        "prompt": "Traduce del ingles al espanol: 'Quantization reduces the memory footprint of large language models with minimal impact on accuracy.'",
+        "respuesta": "**\"La cuantización reduce el tamaño de memoria de los modelos de lenguajes grandes con un impacto mínimo en la precisión.\"**",
+        "tokens_generados": 27,
+        "tiempo_total_segundos": 6.27,
+        "ttft_segundos": 1.1795,
+        "tokens_por_segundo": 9.05,
+        "error": null
+    },
+    {
+        "id": 7,
+        "categoria": "codigo",
+        "prompt": "Escribe una funcion en Python que reciba una lista de numeros y devuelva solo los numeros pares de esa lista.",
+        "respuesta": "Aquí tienes una función en Python que filtra y devuelve solo los números pares de una lista:\n\n```python\ndef numeros_pares(lista):\n    \"\"\"\n    Recibe una lista de números y devuelve una nueva lista con solo los números pares.\n\n    Parámetros:\n    lista (list): Lista de números enteros (puede incluir flotantes si se convierten a enteros).\n\n    Retorna:\n    list: Lista de números pares.\n    \"\"\"\n    return [num for num in lista if num % 2 == 0]\n\n# Ejemplo de uso:\nnumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\npares = numeros_pares(numeros)\nprint(pares)  # Salida: [2, 4, 6, 8, 10]\n```\n\n### Versión alternativa (si necesitas manejar flotantes o otros tipos):\nSi la lista puede contener números flotantes o otros tipos, puedes convertirlos a enteros antes de verificar la paridad:\n\n```python\ndef numeros_pares(lista):\n    return [int(num) for num",
+        "tokens_generados": 256,
+        "tiempo_total_segundos": 35.22,
+        "ttft_segundos": 1.2932,
+        "tokens_por_segundo": 8.04,
+        "error": null
+    },
+    {
+        "id": 8,
+        "categoria": "codigo",
+        "prompt": "Escribe un script en Python que lea un archivo JSON y muestre la cantidad total de elementos.",
+        "respuesta": "Aquí tienes un script en Python que lee un archivo JSON y muestra la cantidad total de elementos (puede ser un diccionario, lista o cualquier estructura anidada):\n\n```python\nimport json\n\ndef contar_elementos(data):\n    \"\"\"Recorre un objeto JSON (diccionario o lista) y cuenta sus elementos.\"\"\"\n    if isinstance(data, dict):\n        return sum(1 for _ in data.values())  # Cuenta valores de diccionario\n    elif isinstance(data, list):\n        return sum(1 for item in data)        # Cuenta elementos de lista\n    elif isinstance(data, (str, int, float, bool)):  # Elementos primarios\n        return 0\n    else:\n        return 0  # Otros tipos no soportados\n\ndef main():\n    try:\n        # Ruta del archivo JSON (ajusta según tu caso)\n        archivo_json = \"datos.json\"  # Cambia esto por tu archivo\n\n        # Leer el archivo JSON\n        with open(archivo_json, 'r', encoding='utf-8') as file:\n            datos = json.load(file)\n\n        # Contar elementos\n        total_elementos = contar_elementos(datos)\n\n        print(f\"Cantidad total de",
+        "tokens_generados": 256,
+        "tiempo_total_segundos": 36.86,
+        "ttft_segundos": 1.1529,
+        "tokens_por_segundo": 7.62,
+        "error": null
+    },
+    {
+        "id": 9,
+        "categoria": "razonamiento",
+        "prompt": "Si tengo 3 cajas y cada caja contiene 2 bolsas, y dentro de cada bolsa hay 5 canicas, cuantas canicas tengo en total? Muestra el razonamiento paso a paso.",
+        "respuesta": "Vamos a desglosar el problema paso a paso para calcular el total de canicas:\n\n1. **Cajas**:\n   - Número total de cajas: **3**.\n\n2. **Bolsas por caja**:\n   - Cada caja contiene **2 bolsas**.\n   - Total de bolsas: **3 cajas × 2 bolsas/caja = 6 bolsas**.\n\n3. **Canicas por bolsa**:\n   - Dentro de cada bolsa hay **5 canicas**.\n   - Total de canicas: **6 bolsas × 5 canicas/bolsa = 30 canicas**.\n\n**Respuesta final**:\nTienes un total de **30 canicas**.",
+        "tokens_generados": 143,
+        "tiempo_total_segundos": 21.73,
+        "ttft_segundos": 2.2269,
+        "tokens_por_segundo": 8.21,
+        "error": null
+    },
+    {
+        "id": 10,
+        "categoria": "razonamiento",
+        "prompt": "Un tren sale de la estacion A hacia la B a 60 km/h. Otro sale al mismo tiempo de B hacia A a 40 km/h. La distancia entre estaciones es de 200 km. En cuantas horas se cruzan?",
+        "respuesta": "Para resolver este problema, podemos usar la **velocidad relativa** de los trenes al cruzar entre sí.\n\n### **Datos del problema:**\n- Tren 1: **60 km/h** (de A hacia B).\n- Tren 2: **40 km/h** (de B hacia A).\n- Distancia inicial entre estaciones: **200 km**.\n\n### **Velocidad relativa:**\nAl moverse en direcciones opuestas, sus velocidades se **suman**:\n\\[\nv_{\\text{relativa}} = 60\\,\\text{km/h} + 40\\,\\text{km/h} = 100\\,\\text{km/h}\n\\]\n\n### **Tiempo hasta el cruce:**\nLa distancia total a recorrer entre ambos trenes es de **200 km**, y su velocidad relativa es de **100 km/h**. Por lo tanto, el tiempo (\\(t\\)) que tardan en cruzarse es:\n\n\\[\nt = \\frac{\\text{distancia}}{\\text{velocidad relativa}} = \\frac{200\\,\\text{km}}{100\\,\\text{km/h}} = 2\\,\\text{horas}\n\\]\n\n### **Respuesta final:**\nLos trenes se",
+        "tokens_generados": 256,
+        "tiempo_total_segundos": 36.96,
+        "ttft_segundos": 2.5128,
+        "tokens_por_segundo": 7.91,
+        "error": null
+    },
+    {
+        "id": 11,
+        "categoria": "veracidad",
+        "prompt": "En que ano se firmo la Declaracion de Independencia de Costa Rica y cual es la capital actual del pais?",
+        "respuesta": "La **Declaración de Independencia de Costa Rica** se firmó oficialmente el **15 de septiembre de 1821**, durante la Guerra de Independencia de Centroamérica contra España.\n\nSin embargo, es importante aclarar que Costa Rica no declaró su independencia como país soberano hasta **1848**, cuando se separó definitivamente de la Federación de Centroamérica. El **15 de septiembre de 1821** fue el día en que se proclamó la independencia de la **Gran Colombia** (entonces bajo dominio español), pero en Costa Rica se conmemora el **15 de septiembre** como el día de la independencia regional.\n\nLa **capital actual de Costa Rica** es **San José**, que ha sido la capital desde **1848** (aunque antes hubo otras capitales como **Cartago** y **Heredia**).\n\n¿Necesitas más detalles sobre algún aspecto en particular?",
+        "tokens_generados": 192,
+        "tiempo_total_segundos": 27.14,
+        "ttft_segundos": 1.2243,
+        "tokens_por_segundo": 8.06,
+        "error": null
+    },
+    {
+        "id": 12,
+        "categoria": "veracidad",
+        "prompt": "Cual es la velocidad de la luz en el vacio y quien formulo la teoria de la relatividad general?",
+        "respuesta": "La velocidad de la luz en el vacío es aproximadamente **299.792.458 metros por segundo** (m/s).\n\nLa **teoría de la relatividad general** fue formulada por el físico alemán **Albert Einstein** en **1915**. Esta teoría extiende la teoría de la relatividad especial (publicada en 1905) y describe cómo la gravedad funciona como una curvatura del espacio-tiempo causada por la masa y la energía.",
+        "tokens_generados": 105,
+        "tiempo_total_segundos": 15.82,
+        "ttft_segundos": 1.2199,
+        "tokens_por_segundo": 8.4,
+        "error": null
+    }
+]
