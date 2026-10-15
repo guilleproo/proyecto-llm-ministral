@@ -70,7 +70,7 @@ def consultar_ollama(model, prompt, temperature, max_tokens):
 
 def main():
     parser = argparse.ArgumentParser(description="Script de inferencia local con Ollama para Evaluacion de Modelos")
-    parser.add_argument("--model", type=str, default="ministral", help="Nombre del modelo en Ollama")
+    parser.add_argument("--model", type=str, default="ministral-3:3b", help="Nombre del modelo en Ollama")
     parser.add_argument("--prompts", type=str, default="prompts/suite.json", help="Ruta al archivo JSON de prompts")
     parser.add_argument("--temperature", type=float, default=0.2, help="Temperatura de generacion")
     parser.add_argument("--max_tokens", type=int, default=256, help="Maximo de tokens a generar")
@@ -87,7 +87,7 @@ def main():
     resultados = []
     print(f"\nIniciando evaluacion con el modelo '{args.model}' (Temp: {args.temperature}, Max Tokens: {args.max_tokens})...\n" + "="*60)
     
-    for item in prompts:
+    for item in prompts[:5]:
         print(f"\n[ID: {item['id']}] Categoria: {item['categoria'].upper()}")
         print(f"Prompt: {item['prompt']}")
         
