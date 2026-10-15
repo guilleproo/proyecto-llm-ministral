@@ -18,25 +18,45 @@ Este proyecto evalua el rendimiento de modelos de lenguaje locales (Mistral / Mi
 │   └── corridas.json
 └── docs/
 
-## Requisitos Previos
-1. Python 3.10 o superior instalado.
-2. [Ollama](https://ollama.com/) instalado y ejecutandose localmente con el modelo Ministral descargado (`ollama run ministral`).
-3. (Opcional) Docker Desktop para la ejecucion contenedorizada.
+## 📋 Requisitos Previos
+* Python 3.10 o superior instalado.
+* [Ollama](https://ollama.com/) instalado en tu equipo.
+* Docker Desktop (opcional, para la ejecución en contenedor).
 
-## Como Ejecutar la Inferencia Localmente
+---
 
-1. Clonar el repositorio y ubicarse en la carpeta raiz.
-2. Instalar las dependencias minimas:
-   ```bash
-   pip install -r requirements.txt
+## 🚀 Guía de Reproducción (Paso a Paso)
 
-Ejecutar el script de inferencia indicando el modelo y parametros deseados:
-python src/inference.py --model ministral:3b --temperature 0.2 --max_tokens 256
+### 1. Clonar el Repositorio
+Clona este repositorio en tu máquina local y accede a la carpeta del proyecto:
+```bash
+git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+cd nombre-del-repo
 
-Ejecucion con Docker
-Construir la imagen de Docker:
-docker build -t evaluador-llm:latest .
+Asegúrate de tener el servicio de Ollama corriendo y descarga el modelo Ministral utilizado en las pruebas:
 
-Ejecutar el contenedor (asegurandose de tener Ollama corriendo en el host):
-docker run --rm --add-host=host.docker.internal:host-gateway -v "${PWD}/results:/app/results" evaluador-llm:latest
+Bash
+ollama serve
+# En otra terminal, descarga el modelo:
+ollama run ministral
 
+Instala las dependencias necesarias de Python:
+
+Bash
+pip install -r requirements.txt
+Ejecuta el script de inferencia para correr la suite de pruebas y generar el archivo de resultados:
+
+Bash
+python src/inference.py
+
+Ejecución con Docker
+Si prefieres ejecutar el entorno de forma contenerizada:
+
+Construye la imagen de Docker:
+
+Bash
+docker build -t ministral-inference .
+Ejecuta el contenedor asegurándote de mapear el volumen de resultados:
+
+Bash
+docker run --rm -v $(pwd)/results:/app/results ministral-inference
