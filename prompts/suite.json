@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "categoria": "generacion_texto",
+    "prompt": "Escribe un correo formal para solicitar una extension de 3 dias en la entrega de un informe academico debido a un problema tecnico con un servidor."
+  },
+  {
+    "id": 2,
+    "categoria": "generacion_texto",
+    "prompt": "Crea una breve historia de ciencia ficcion sobre un desarrollador que descubre un bug en un modelo de inteligencia artificial."
+  },
+  {
+    "id": 3,
+    "categoria": "resumen",
+    "prompt": "Resume en maximo 3 vinetas principales el siguiente concepto: La arquitectura Transformer utiliza mecanismos de atencion para procesar secuencias de texto en paralelo, eliminando la necesidad de redes recurrentes."
+  },
+  {
+    "id": 4,
+    "categoria": "resumen",
+    "prompt": "Extrae la idea central de la Ley de Inteligencia Artificial de la Union Europea (AI Act) en dos oraciones."
+  },
+  {
+    "id": 5,
+    "categoria": "traduccion",
+    "prompt": "Traduce el siguiente texto al ingles de forma profesional: 'La ejecucion de modelos de lenguaje en dispositivos locales mejora la privacidad de los datos'."
+  },
+  {
+    "id": 6,
+    "categoria": "traduccion",
+    "prompt": "Traduce del ingles al espanol: 'Quantization reduces the memory footprint of large language models with minimal impact on accuracy.'"
+  },
+  {
+    "id": 7,
+    "categoria": "codigo",
+    "prompt": "Escribe una funcion en Python que reciba una lista de numeros y devuelva solo los numeros pares de esa lista."
+  },
+  {
+    "id": 8,
+    "categoria": "codigo",
+    "prompt": "Escribe un script en Python que lea un archivo JSON y muestre la cantidad total de elementos."
+  },
+  {
+    "id": 9,
+    "categoria": "razonamiento",
+    "prompt": "Si tengo 3 cajas y cada caja contiene 2 bolsas, y dentro de cada bolsa hay 5 canicas, cuantas canicas tengo en total? Muestra el razonamiento paso a paso."
+  },
+  {
+    "id": 10,
+    "categoria": "razonamiento",
+    "prompt": "Un tren sale de la estacion A hacia la B a 60 km/h. Otro sale al mismo tiempo de B hacia A a 40 km/h. La distancia entre estaciones es de 200 km. En cuantas horas se cruzan?"
+  },
+  {
+    "id": 11,
+    "categoria": "veracidad",
+    "prompt": "En que ano se firmo la Declaracion de Independencia de Costa Rica y cual es la capital actual del pais?"
+  },
+  {
+    "id": 12,
+    "categoria": "veracidad",
+    "prompt": "Cual es la velocidad de la luz en el vacio y quien formulo la teoria de la relatividad general?"
+  }
+]
