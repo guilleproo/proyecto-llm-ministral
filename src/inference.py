@@ -87,7 +87,7 @@ def main():
     resultados = []
     print(f"\nIniciando evaluacion con el modelo '{args.model}' (Temp: {args.temperature}, Max Tokens: {args.max_tokens})...\n" + "="*60)
     
-    for item in prompts[:5]:
+    for item in prompts:
         print(f"\n[ID: {item['id']}] Categoria: {item['categoria'].upper()}")
         print(f"Prompt: {item['prompt']}")
         
