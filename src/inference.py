@@ -109,7 +109,7 @@ def main():
             "tiempo_total_segundos": res["tiempo_total_segundos"],
             "ttft_segundos": res["ttft_segundos"],
             "tokens_por_segundo": res["tokens_por_segundo"],
-            "error": res["error"]
+            "error": res["error"] 
         })
 
     os.makedirs("results", exist_ok=True)
@@ -121,4 +121,6 @@ def main():
     print(f"\nEvaluacion finalizada con exito! Resultados guardados en '{ruta_salida}'.")
 
 if __name__ == "__main__":
+
+    
     main()
