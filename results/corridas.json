@@ -42,16 +42,6 @@
         "ttft_segundos": 1.0311,
         "tokens_por_segundo": 8.46,
         "error": null
-    },
-    {
-        "id": 5,
-        "categoria": "traduccion",
-        "prompt": "Traduce el siguiente texto al ingles de forma profesional: 'La ejecucion de modelos de lenguaje en dispositivos locales mejora la privacidad de los datos'.",
-        "respuesta": "**\"Running language models on local devices enhances data privacy.\"**\n\n*(Alternative, slightly more concise version if preferred):*\n**\"Executing language models locally boosts data privacy.\"**",
-        "tokens_generados": 36,
-        "tiempo_total_segundos": 5.67,
-        "ttft_segundos": 1.1721,
-        "tokens_por_segundo": 8.13,
-        "error": null
     }
+
 ]
